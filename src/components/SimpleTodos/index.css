@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 100vh;
+  box-shadow: 0px 2px 4px black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboot';
+  font-weight: 600;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.todo-list-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px black;
+}
